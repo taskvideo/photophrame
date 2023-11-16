@@ -292,8 +292,11 @@ textarea.simple-input{height: 70px; line-height: 18px; padding: 10px 0;}
 /* 04 - SWIPER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .swiper-entry{position: relative;}
-.swiper-wrapper{cursor:url(../img/drag.png) 16 9, ew-resize;}
-.swiper-container-vertical .swiper-wrapper{cursor:url(../img/drag-vertical.png) 8 16, ns-resize;}
+/*.swiper-wrapper{cursor:url(../img/drag.png) 16 9, ew-resize;}
+.swiper-container-vertical .swiper-wrapper{cursor:url(../img/drag-vertical.png) 8 16, ns-resize;}*/
+.swiper-wrapper, .swiper-container-vertical .swiper-wrapper {
+    cursor: default;
+}
 .swiper-button-disabled+.swiper-button-disabled+.swiper-wrapper, .swiper-button-disabled+.swiper-button-disabled+.swiper-container > .swiper-wrapper{transform: none!important; -webkit-transform: none!important; cursor: auto; justify-content: center;}
 .swiper-button-disabled+.swiper-button-disabled+.swiper-wrapper .swiper-slide:last-child, .swiper-button-disabled+.swiper-button-disabled+.swiper-container > .swiper-wrapper .swiper-slide:last-child{margin-right: 0!important;}
 .swiper-button-disabled+.swiper-button-disabled+.swiper-wrapper+.swiper-pagination-bullets, .swiper-button-disabled+.swiper-button-disabled+.swiper-container > .swiper-pagination-bullets{display: none!important;}
