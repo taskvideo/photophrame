@@ -502,12 +502,10 @@ button.swiper-pagination-bullet {
   left: 0;
   top: 0;
 }
-/*.swiper-scrollbar-cursor-drag {
+.swiper-scrollbar-cursor-drag {
   cursor: move;
-}*/
-.swiper-scrollbar-cursor-drag { 
-  cursor: default;
 }
+
 /* Preloader */
 .swiper-lazy-preloader {
   width: 42px;
