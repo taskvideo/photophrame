@@ -1,6 +1,6 @@
 <?php
 $mail_to = "info@francocionini.it";
-$mail_from = "postmaster@francocionini.it";
+$mail_from = "webmaster@francocionini.it";
 
 /**
 $mail_to = "yourpersonalemail@gmail.com";
