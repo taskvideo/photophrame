@@ -1,6 +1,11 @@
 <?php
 $mail_to = "info@francocionini.it";
-$mail_from = "info@francocionini.it";
+$mail_from = "webmaster@aruba.it";
+
+/**
+$mail_to = "yourpersonalemail@gmail.com";
+$mail_from = "webmaster@example.com";
+**/
 
 $name = strip_tags(trim($_POST['name']));
 $email = strip_tags(trim($_POST['email']));
